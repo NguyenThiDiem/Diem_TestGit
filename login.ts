@@ -11,7 +11,7 @@ class LoginPage {
   get loginAsAChildCareProvider(): string {
     return "//a[text()='As a ChildCare Provider']";
   }
-  get loginRole(): string {
+  get loginRole1(): string {
     return "//a[text()='As a ChildCare Provider']";
   }
 }
