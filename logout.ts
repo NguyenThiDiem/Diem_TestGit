@@ -14,6 +14,9 @@ class LogoutPage {
   get logoutInFeature(): string {
     return "//a[text()='As a ChildCare Provider']";
   }
+  get abc(): string {
+    return "12121212";
+  }
 }
 
 export default new LogoutPage();
