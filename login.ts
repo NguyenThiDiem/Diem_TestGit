@@ -14,6 +14,9 @@ class LoginPage {
   get loginRole1234(): string {
     return "//a[text()='As a ChildCare Provider']";
   }
+  get login(): string {
+    return "//a[text()='As a ChildCare Provider']";
+  }
 }
 
 export default new LoginPage();
