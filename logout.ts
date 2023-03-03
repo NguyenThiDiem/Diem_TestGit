@@ -11,7 +11,7 @@ class LogoutPage {
   get loginAsAChildCareProvider(): string {
     return "//a[text()='As a ChildCare Provider']";
   }
-  get loginRole123(): string {
+  get logoutInFeature(): string {
     return "//a[text()='As a ChildCare Provider']";
   }
 }
