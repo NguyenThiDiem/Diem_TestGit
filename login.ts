@@ -15,5 +15,6 @@ class LoginPage {
     return "//a[text()='As a ChildCare Provider']";
   }
 }
+//Demo
 
 export default new LoginPage();
