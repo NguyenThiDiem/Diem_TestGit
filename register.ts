@@ -17,7 +17,7 @@ class LoginPage {
 
   //Demo
   get register(): string {
-    return "123";
+    return "Hello Diem";
   }
 }
 export default new LoginPage();
