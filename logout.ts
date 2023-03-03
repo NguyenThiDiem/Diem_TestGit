@@ -1,22 +1,24 @@
-class LogoutPage {
-  get loginBtn(): string {
-    return "//span[text()='Log In']//parent::button";
+import Page from "../openPage/page";
+
+class LogoutPage extends Page {
+  get logoutProvider(): string {
+    return "//span[@class='userInfo']//parent::div";
   }
-  get logout(): string {
-    return "//span[text()='Log In']//parent::button";
+  get logoutProviderBtn(): string {
+    return "//span[text()='Logout']//parent::li";
   }
-  get loginAsAParent(): string {
-    return "//span[text()='As a Parent']";
+
+  get logoutParent(): string {
+    return "//div[@class='header__user-info']";
   }
-  get loginAsAChildCareProvider(): string {
-    return "//a[text()='As a ChildCare Provider']";
+
+  get logoutParentBtn(): string {
+    return "//span[text()='Logout']";
   }
-  get logoutInDevelop(): string {
-    return "//a[text()='As a ChildCare Provider']";
+  get applications(): string {
+    return "//a[text()='Applications']//parent::span";
   }
-  get changeFile(): string {
-    return "123456788";
-  }
+  
 }
 
 export default new LogoutPage();
