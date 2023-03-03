@@ -14,6 +14,9 @@ class LogoutPage {
   get logoutInDevelop(): string {
     return "//a[text()='As a ChildCare Provider']";
   }
+  get changeFile(): string {
+    return "123456788";
+  }
 }
 
 export default new LogoutPage();
